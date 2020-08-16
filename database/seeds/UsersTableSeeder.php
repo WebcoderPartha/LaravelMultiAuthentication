@@ -23,7 +23,7 @@ class UsersTableSeeder extends Seeder
 
         User::create([
             'role_id'   => 2,
-            'username'  => 'author',
+            'username'  => 'Author',
             'name'      => 'author',
             'email'     => 'author@gmail.com',
             'password'  => Hash::make('p01012000')
